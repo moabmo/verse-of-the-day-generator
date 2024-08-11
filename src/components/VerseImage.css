@@ -131,8 +131,9 @@ button:hover {
 }
 
 .footer img {
-  width: 30%;  /* Fixed width */
-  height: 30%; /* Fixed height */
+  width: 20%;  /* Fixed width */
+  height: 20%; /* Fixed height */
+opacity: 0.5;
   object-fit: contain; /* Ensure the logo is contained within these dimensions */
   /* Optional: Center the logo within its container */
   display: block;
