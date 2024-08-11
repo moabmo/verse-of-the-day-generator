@@ -23,8 +23,8 @@ textarea {
   height: 80px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid grey;
-  background-color: grey;
+  border: 1px solid rgb(202, 202, 202);
+  background-color: rgba(13, 13, 13, 0.98);
   color: #ddd;
   font-size: 14px;
   font-family: 'Comfortaa', sans-serif;
@@ -35,8 +35,8 @@ input {
   width: 300px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid grey;
-  background-color: grey;
+  border: 1px solid rgba(13, 13, 13, 0.98);
+  background-color: rgba(13, 13, 13, 0.98);
   color: #ddd;
   font-size: 14px;
   font-family: 'Comfortaa', sans-serif;
@@ -62,7 +62,7 @@ button:hover {
 .verse-image {
   width: 350px;
   height: 400px; /* Slightly shorter height */
-  background: linear-gradient(rgba(28, 37, 65, 0.95), rgba(13, 13, 13, 0.95)), url('background.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(28, 37, 65, 0.98), rgba(13, 13, 13, 0.98)), url('background.jpg') center/cover no-repeat;
   /* background: radial-gradient(circle at top left, #1c2541, #0d0d0d), url('background.jpg') center/cover no-repeat; */
   position: relative;
   border-radius: 10px;

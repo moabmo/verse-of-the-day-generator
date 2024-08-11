@@ -48,13 +48,13 @@ function VerseImage() {
           placeholder="Enter your verse here..."
           value={verse}
           onChange={(e) => setVerse(e.target.value)}
-        />
+        /> <br/>
         <input
           type="text"
           placeholder="Enter book, chapter, verse (e.g., John 3:16)"
           value={reference}
           onChange={(e) => setReference(e.target.value)}
-        />
+        /><br/>
         <button onClick={handleDownload}>Generate Image</button>
       </div>
       <div id="verseImage" className="verse-image">
